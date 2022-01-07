@@ -1,3 +1,6 @@
+########################################### IMPORTS ##################################################
+
+
 from flask import Blueprint, render_template, request, flash
 
 app_blueprint = Blueprint('app_blueprint',__name__)
@@ -10,6 +13,11 @@ import base64
 import json
 import time
 import requests
+
+
+########################################### IMPORTS END ##################################################
+
+########################################### HTML ROUTES ##################################################
 
 @app_blueprint.route('/coins')
 def coins():
@@ -24,20 +32,21 @@ def deposit():
 def home():
     return render_template("home.html")
 
-
-'''
-from dotenv import load_dotenv
-
-load_dotenv()
-
-'''
-
-key = "6d3089ee4d8ccf4d062d85069b6378311cce7b25c8ddb8be"
-secret = "02242fac9072ad4077bb1fa623fbf6699b6f43476fbd82a45c5680d6ea4f74eb"
+@app_blueprint.route('/login')
+def auth():
+    return render_template("index.html")
 
 
-@app_blueprint.route('/usdt')
+
+########################################### ROUTES END ##################################################
+
+
+########################################### TEST OR FUNCTION ROUTES #####################################
+
+@app_blueprint.route('/test')
 def coinap():
+    key = "6d3089ee4d8ccf4d062d85069b6378311cce7b25c8ddb8be"
+    secret = "02242fac9072ad4077bb1fa623fbf6699b6f43476fbd82a45c5680d6ea4f74eb"
     # python3
     secret_bytes = bytes(secret, encoding='utf-8')
 
@@ -64,12 +73,15 @@ def coinap():
     print(data);
 
     for i in data:
-        if i["currency"] == "USDT":
+        if i["currency"] == "BNB":
             return i
+        temp = str(i);
+        return render_template('test.html', value=temp)
 
-    return str(i)
 
-
+    
+    ########################################################### Binance- API CALLS ###########################################################
+import keys
 
 if __name__ == "__main__":
-    app.run()
+       app_blueprint.run()
