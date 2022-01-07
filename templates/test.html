@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  
+    <title>Crypto-ATM - Desposit Page</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+  
+    <!-- Favicons -->
+    <link href="staic/img/favicon.png" rel="icon">
+    <link href="staic/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <head>
+    {% include 'css.html' %}
+    
+    
+  </head>
+
+  <body>
+    <main id="main">
+      {% include 'navbar.html' %}
+    </main>
+    <h3>I like the animal: <br> {{ value }}<h3>
+
+
+from binance.exceptions import BinanceAPIException
+try:
+# passing a name parameter
+    result = client.withdraw(
+        coin='BETH',
+        address='<0x10a445e346fa2bdf74ce81d5de3ce0db6e5e80fc>',
+        amount=100,
+        name='Withdraw')
+except BinanceAPIException as e:
+    print(e)
+else:
+    print("Success")
+
+
+<br>
+<br>
+<br>
+  <br>
+{% include 'footer.html' %}
+  </body>
+</html>
