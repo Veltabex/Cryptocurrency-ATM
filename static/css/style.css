@@ -41,16 +41,19 @@ section {
 .section-title {
   text-align: center;
   padding-bottom: 30px;
+  font-weight: bold;
 }
 .section-title h2 {
   font-size: 32px;
   font-weight: 300;
   margin-bottom: 20px;
   padding-bottom: 0;
-  color: #555;
+  color: rgb(17, 17, 17);
 }
 .section-title p {
   margin-bottom: 0;
+  color: black;
+  font-weight: bold;
 }
 
 /*--------------------------------------------------------------
@@ -58,7 +61,7 @@ section {
 --------------------------------------------------------------*/
 .breadcrumbs {
   padding: 20px 0;
-  background-color: #f6fafa;
+  background-color: #151616;
   min-height: 40px;
   margin-top: 80px;
 }
@@ -86,7 +89,7 @@ section {
 .breadcrumbs ol li + li::before {
   display: inline-block;
   padding-right: 10px;
-  color: #6c757d;
+  color: #121213;
   content: "/";
 }
 @media (max-width: 768px) {
@@ -217,7 +220,7 @@ section {
   opacity: 0;
   visibility: hidden;
   background: #fff;
-  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+  box-shadow: 0px 0px 30px rgb(243, 241, 241);
   transition: 0.3s;
 }
 .navbar .dropdown ul li {
@@ -228,7 +231,7 @@ section {
   text-transform: none;
   font-size: 14px;
   font-weight: 500;
-  color: #25564f;
+  color: #080808;
 }
 .navbar .dropdown ul a i {
   font-size: 12px;
@@ -464,7 +467,7 @@ section {
   margin-bottom: 15px;
 }
 .services .icon i {
-  color: #70b9b0;
+  color: #066b72;
   font-size: 42px;
 }
 .services .title {
@@ -474,11 +477,11 @@ section {
   text-transform: uppercase;
 }
 .services .title a {
-  color: #343a40;
+  color: #066b72;
   transition: 0.3s;
 }
 .services .icon-box:hover .title a {
-  color: #70b9b0;
+  color: #131212;
 }
 .services .description {
   line-height: 24px;
@@ -538,7 +541,7 @@ section {
   padding: 10px 20px;
   font-size: 12px;
   line-height: 20px;
-  color: #777;
+  color: rgb(12, 12, 12);
   border-radius: 4px;
   text-transform: uppercase;
   background: white;
@@ -669,13 +672,13 @@ section {
 .faq .faq-list .question {
   display: block;
   position: relative;
-  font-family: #70b9b0;
+  font-family: #066b72;
   font-size: 18px;
   line-height: 24px;
   font-weight: 400;
   padding-left: 25px;
   cursor: pointer;
-  color: #51a59b;
+  color: #066b72;
   transition: 0.3s;
 }
 .faq .faq-list i {
@@ -692,10 +695,10 @@ section {
   display: none;
 }
 .faq .faq-list .collapsed {
-  color: #343a40;
+  color: #0c0c0c;
 }
 .faq .faq-list .collapsed:hover {
-  color: #70b9b0;
+  color: #066b72;
 }
 .faq .faq-list .collapsed .icon-show {
   display: inline-block;
@@ -756,18 +759,18 @@ section {
 --------------------------------------------------------------*/
 .contact .contact-about h3 {
   font-size: 36px;
-  margin: 0 0 10px 0;
+  margin: 0 0 10px 60px;
   padding: 0;
   line-height: 1;
-  font-weight: 500;
+  font-weight: 700;
   letter-spacing: 1px;
-  color: #70b9b0;
+  color: #0f0f0f;
 }
 .contact .contact-about p {
   font-size: 14px;
   line-height: 24px;
   font-family: "Lato", sans-serif;
-  color: #888;
+  color: rgb(180, 39, 39);
 }
 .contact .social-links {
   padding-bottom: 20px;
@@ -788,15 +791,16 @@ section {
   border: 1px solid #70b9b0;
 }
 .contact .social-links a:hover {
-  background: #70b9b0;
-  color: #fff;
+  background: #0f0f0f;
+  color: rgb(15, 15, 15);
 }
 .contact .info {
-  color: #777;
+  color: rgb(7, 7, 7);
+  font-weight: bold;
 }
 .contact .info i {
   font-size: 32px;
-  color: #70b9b0;
+  color: #0d0e0e;
   float: left;
   line-height: 1;
 }
@@ -807,8 +811,8 @@ section {
 }
 .contact .php-email-form .error-message {
   display: none;
-  color: #fff;
-  background: #ed3c0d;
+  color: rgb(22, 22, 22);
+  background: #faf8f8;
   text-align: left;
   padding: 15px;
   font-weight: 600;
@@ -904,3 +908,14 @@ section {
   font-size: 13px;
   color: #fff;
 }
+
+#coin {
+  font: ();
+  background-color: #fffdfd;
+  text-align: center;
+  color: #080808;
+}
+ .customer-care{
+  margin-top: 15px;
+  margin-left: 50px;
+ }
