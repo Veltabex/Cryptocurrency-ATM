@@ -220,7 +220,7 @@ section {
   opacity: 0;
   visibility: hidden;
   background: #fff;
-  box-shadow: 0px 0px 30px rgb(243, 241, 241);
+  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
   transition: 0.3s;
 }
 .navbar .dropdown ul li {
@@ -231,7 +231,7 @@ section {
   text-transform: none;
   font-size: 14px;
   font-weight: 500;
-  color: #080808;
+  color: #25564f;
 }
 .navbar .dropdown ul a i {
   font-size: 12px;
@@ -911,9 +911,12 @@ section {
 
 #coin {
   font: ();
-  background-color: #fffdfd;
+  background-image: url("C:\Users\YAHYA\Desktop\backgrnd.jpg");
+  background-color: #cccccc;
+width: auto;
+height: auto;
   text-align: center;
-  color: #080808;
+  color: #070707; 
 }
  .customer-care{
   margin-top: 15px;
