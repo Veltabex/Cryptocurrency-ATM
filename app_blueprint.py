@@ -58,7 +58,7 @@ socketio = SocketIO(app)
 app.config['PERMANENT_SESSION_LIFETIME'] = timedelta(minutes = 12)
 
 #step – 3 (creating a dictionary to store information about users)
-user = {"username": "aaa", "password": "123"}
+user = {"username": "username", "password": "password"}
 
 #Step – 4 (creating route for login)
 @app_blueprint.route('/login', methods = ['POST', 'GET'])
