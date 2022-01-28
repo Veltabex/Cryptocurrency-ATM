@@ -31,6 +31,14 @@ def home():
 def form():
     return render_template("form.html")
 
+@app_blueprint.route('/buy')
+def buy():
+    return render_template("buy.html")
+
+@app_blueprint.route('/success')
+def success():
+    return render_template("success.html")
+
 ########################################### LOGIN ROUTES ##################################################
 
 from flask import (
