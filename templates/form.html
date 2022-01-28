@@ -14,15 +14,25 @@
         <legend>
           <h3>Enter Account Details</h3>
         </legend>
+        <h2>Please Keep In Mind The TRON Netwrok charges 1 USD as Netwrok Fee,<br> Which Is Included In The Below Amounts.</h3>
         <div  class="account-details">
             <div><label>Name</label><input type="text" name="name" required></div>
           <div><label>Email</label><input type="email" name="email" required></div>
           <div><label>Transaction ID</label><input type="text" name="tid" required></div>
-          <div><label>Amount</label><input type="number" name="amount" required></div>
-              <img src="static/images/mp-qr.jpeg" alt="qr-code" class=qr>
+          <div><label>(TRON) Wallet Address</label><input type="text" name="Wallet" required></div>
+          <div>
+            <label>Amount</label>
+            <select class="amount" required>
+              <option value="none" selected disabled hidden>Select an Amount</option>
+              <option value="2">$2 (₹150)</option>
+              <option value="4">$4 (₹300)</option>
+              <option value="8">$8 (₹600)</option>
+            </select>
+          </div>
+          <img src="static/images/mp-qr.jpeg" alt="qr-code" class=qr>
           </div>
         </div>
-        <button type="submit" href="/">Submit</button>
+        <button type="submit" href="/">Confirm Buy</button>
       </fieldset>
     </form>
     </div> 
