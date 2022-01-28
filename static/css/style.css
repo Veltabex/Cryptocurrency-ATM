@@ -911,7 +911,6 @@ section {
 
 #coin {
   font: ();
-  background-image: url("C:\Users\YAHYA\Desktop\backgrnd.jpg");
   background-color: #cccccc;
 width: auto;
 height: auto;
@@ -922,3 +921,9 @@ height: auto;
   margin-top: 15px;
   margin-left: 50px;
  }
+
+ #coin .coin-container {
+
+  margin-left: 50px;
+  flex-direction: row;
+}
