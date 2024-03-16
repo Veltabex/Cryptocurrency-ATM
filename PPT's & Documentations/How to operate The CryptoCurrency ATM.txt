@@ -1,0 +1,37 @@
+The below are pre-requirements & instructions on how to run and host our cryptocurrency-ATM code.
+
+Pre-requirements:
+	Software:
+	1. VScode.
+	2. Python.
+	3. Internet Browser.
+Instructions:
+	1. Open VScode & open our Folder containing our application files on VScode.
+	
+	2. After it has been opened on the click terminal and open it.
+	
+	3.. It should loacate to your application .PY file if not please use cd and locate the py file in the terminal on vscode.
+	
+	4. After locating the .py file run the env/Scripts/Activate
+	
+	5. Which should open the python envirnment to run the flask application.
+	
+	6. Type flask run to start the application.
+	
+	Note the file will automatically start on a local port 5000 so make sure that port no is free and not being used by another appication.
+	
+	7. Once the application is started you will see hosted on some ip address, copy that ip with its port and paste it into the browser url place.
+	
+	8. It should open a website running on the vscode terminal.
+	
+	9. Now you can make transctions on the ATM, just login using the specified credentials.
+	
+	10. Then choose your coin.
+	
+	11. Then scan the QR code and send the selected amount.
+	
+	12. Copy that Order ID after payment using a UPI app to the showed QR Code.
+	
+	13. Then paste your Order code, Tron wallet address and ur seleted amount and click submit.
+	
+	14. It should show you the transction is passed and you will receive the amount on your wallet.
