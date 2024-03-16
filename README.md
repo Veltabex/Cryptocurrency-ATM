@@ -1,5 +1,7 @@
-Project Documentation PDF: 
-(https://github.com/Veltabex/Cryptocurrency-ATM/files/14607837/MP.Cryptocurrecny-ATM.Documentation.pdf)
+Project Documentation PDF:
+[Cryptocurrecny-ATM.Documentation.pdf](https://github.com/Veltabex/Cryptocurrency-ATM/files/14622774/Cryptocurrecny-ATM.Documentation.pdf)
+
+
 
 
 During my third year of engineering, one of my course requirements was to choose an area of domain under the supervision of our professor for the mini-project module.
