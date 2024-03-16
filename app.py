@@ -5,3 +5,6 @@ app = Flask(__name__)
 app.secret_key = 'somesecretkeythatonlyishouldknow'
 
 app.register_blueprint(app_blueprint)
+
+if __name__ == "__main__":
+    app.run()
