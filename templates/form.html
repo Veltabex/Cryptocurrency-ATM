@@ -8,7 +8,7 @@
   </head>
   <body>
     <div class="main-block">
-    <form method="POST">
+    <form method="POST" action="./buycrypto">
       <h1>Checkout Page</h1>
       <fieldset>
         <legend>
@@ -17,22 +17,23 @@
         <h2>Please Keep In Mind The TRON Netwrok charges 1 USD as Netwrok Fee,<br> Which Is Included In The Below Amounts.</h3>
         <div  class="account-details">
             <div><label>Name</label><input type="text" name="name" required></div>
-          <div><label>Email</label><input type="email" name="email" required></div>
-          <div><label>Transaction ID</label><input type="text" name="tid" required></div>
-          <div><label>(TRON) Wallet Address</label><input type="text" name="Wallet" required></div>
+          <div><label>Order ID</label><input type="text" name="tid" required></div>
+          <div><label>TRON Wallet Address</label><input type="text" name="Email" required></div>
           <div>
             <label>Amount</label>
-            <select class="amount" required>
+            <select class="amount" name="wallet" required>
               <option value="none" selected disabled hidden>Select an Amount</option>
-              <option value="2">$2 (₹150)</option>
-              <option value="4">$4 (₹300)</option>
-              <option value="8">$8 (₹600)</option>
+              <option value="11">$11 (₹825)</option>
+              <option value="15">$15 (₹1,125)</option>
+              <option value="20">$20 (₹1,500)</option>
             </select>
           </div>
           <img src="static/images/mp-qr.jpeg" alt="qr-code" class=qr>
           </div>
         </div>
-        <button type="submit" href="/">Confirm Buy</button>
+        <button type="submit" class="button" onclick="this.classList.toggle('buttonloading')">
+          <span class="buttontext">Confirm Buy</span>
+        </button>
       </fieldset>
     </form>
     </div> 
