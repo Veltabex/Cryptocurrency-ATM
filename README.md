@@ -9,7 +9,8 @@ Capitalizing on the crypto craze at the time and supported by the resounding suc
 
 Use Case Diagram:
 
-![image](https://github.com/Veltabex/Cryptocurrency-ATM/assets/62775096/62a9bacc-ac39-485e-a1a3-25fe6dd71553)
+![313381667-62a9bacc-ac39-485e-a1a3-25fe6dd71553](https://github.com/Veltabex/Cryptocurrency-ATM/assets/62775096/1f66aa85-4a9d-4261-a28d-d692abfbfcce)
+
 
 Activity Diagram:
 
